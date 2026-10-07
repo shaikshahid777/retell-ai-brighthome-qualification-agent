@@ -115,7 +115,7 @@ The Retell AI dashboard showed these simulation cases as **Passed**:
 
 ## 📚 Documentation
 
-- [Project documentation](docs/project-documentation.pdf)
+- [Project documentation](docs/project-documentation.md)
 - [LMS submission description](docs/lms-submission-description.txt)
 - [Test results and evidence notes](docs/test-results.md)
 - [Assessment limitations and next steps](docs/limitations.md)
