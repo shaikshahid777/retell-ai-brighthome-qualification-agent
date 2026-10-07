@@ -1,0 +1,15 @@
+BrightHome Qualification Agent | Retell AI Topic 1 Assessment
+
+This project demonstrates a Single Prompt voice agent built in Retell AI for qualifying callers requesting residential cleaning quotes. The agent collects the caller's name, callback number, cleaning type, home size, service address, city, ZIP code, and preferred start timeframe. It is instructed to ask one question at a time, use details already provided, avoid unnecessary repeated questions, and summarize the collected information for confirmation before ending a qualified inquiry.
+
+The agent also handles out-of-scope requests: it politely ends commercial/office cleaning inquiries and unrelated vendor or sales calls. The official BrightHome service-area ZIP list and complete supported-service list were not included in the provided assessment materials, so the agent does not invent these details; service-area eligibility is left for confirmation. Live availability lookup and appointment booking are not claimed as implemented.
+
+Retell dashboard simulation tests shown as Passed:
+- Happy Path Test - Fully Qualified Caller
+- Commercial Service Disqualification Test
+- Vendor / Spam Call Disqualification Test
+
+Loom demonstration: https://www.loom.com/share/c957cb77299f4eb8915e8383ba405247
+GitHub repository: https://github.com/shaikshahid777/retell-ai-brighthome-qualification-agent
+
+This is an educational assessment prototype. Official business data and any production integrations should be verified before real-world use.
